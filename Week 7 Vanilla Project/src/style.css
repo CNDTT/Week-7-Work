@@ -27,3 +27,15 @@ ul {
   list-style: none;
   padding: 0px;
 }
+.weather-temperature img {
+  margin-right: 20px;
+}
+.weather-temperature strong {
+  font-size: 60px;
+  line-height: 1;
+  color: #272142;
+}
+.weather-temperature .units {
+  position: relative;
+  top: -30px;
+}
