@@ -27,6 +27,9 @@ ul {
   list-style: none;
   padding: 0px;
 }
+li {
+  text-transform: capitalize;
+}
 .weather-temperature img {
   margin-right: 20px;
 }

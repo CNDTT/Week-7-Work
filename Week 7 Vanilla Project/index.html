@@ -11,6 +11,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Plus - Week 7</title>
   </head>
@@ -19,11 +20,12 @@
       <div class="weather-app">
         <div class="row">
           <div class="col-6">
-            <h1>Tokyo, Japan</h1>
+            <h1 id="city"></h1>
             <ul>
-              <li><span> Wednesday 18:19</span>, Sunny</li>
-              <li>Humidity: 45%</li>
-              <li>Wind: 5.66km/h</li>
+              <li>Wednesday 18:19</li>
+              <li id="description"></li>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind Speed: <span id="wind"></span>km/h</li>
             </ul>
           </div>
           <div class="col-6">
