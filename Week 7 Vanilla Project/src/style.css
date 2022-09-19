@@ -30,15 +30,18 @@ ul {
 li {
   text-transform: capitalize;
 }
+
 .weather-temperature img {
-  margin-right: 20px;
+  margin: 0;
 }
 .weather-temperature strong {
-  font-size: 60px;
+  font-size: 50px;
   line-height: 1;
   color: #272142;
+  position: relative;
+  top: 15px;
 }
 .weather-temperature .units {
   position: relative;
-  top: -30px;
+  top: -10px;
 }
