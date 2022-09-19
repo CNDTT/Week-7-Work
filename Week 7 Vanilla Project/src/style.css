@@ -45,3 +45,12 @@ li {
   position: relative;
   top: -10px;
 }
+
+.weather-temperature .active {
+  color: #272142;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
